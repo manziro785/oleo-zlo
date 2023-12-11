@@ -123,9 +123,9 @@ window.addEventListener('scroll', () => {
                             food for all time
                         </div>
                     </div>
-                  
+                  <div className="button-more">
                     <a href="" className='button-of-categories'>More</a>
-                    
+                    </div>
                     </div>
                    
                     <img src="./src/assets/фото/image 25.png" alt="" className='raspberry' />
