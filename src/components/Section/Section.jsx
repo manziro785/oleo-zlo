@@ -1,5 +1,6 @@
 import React from 'react'
 import './Section.css'
+import '../Adaptive/Adap-section.css'
 
 export default function Section() {
 
@@ -137,11 +138,13 @@ window.addEventListener('scroll', () => {
                 
                             < div className="galerry" >
                                 <div>
+                                <div className="gall">
                                     <div className="img-box"><h3>Breakfast</h3></div>
                                     <div className="img-box"><h3>Lunch</h3></div>
                                     <div className="img-box"><h3>Dinner</h3></div>
                                     <div className="img-box"><h3>Dessert</h3></div>
                                     <div className="img-box"><h3>Drinks</h3></div>
+                                </div>
                                 </div>
 
 
@@ -186,6 +189,7 @@ window.addEventListener('scroll', () => {
                     </div>
                     <div className="kommenty">
                         <div className="first-comment">
+                            <div className="comment-1">
                             <div className="box1">
                                 <img src="./src/assets/фото/massage.png" alt="" className='message' />
                                 <div className="name">
@@ -193,6 +197,7 @@ window.addEventListener('scroll', () => {
                                     <div className="imya"> <div className="user">Username</div>
                                         <div className="name-of-user">Name</div></div>
                                 </div>
+                            </div>
                             </div>
                         </div>
                         <div className="first-comment">
