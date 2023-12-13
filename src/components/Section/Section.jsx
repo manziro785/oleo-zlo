@@ -17,7 +17,7 @@ const checkBoxes = (elements) => {
         } else {
             box.classList.remove('show');
         }
-    }
+    } 
 };
 
 const checkBoxes1 = () => {
