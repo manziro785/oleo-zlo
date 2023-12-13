@@ -3,7 +3,7 @@ import './Section.css'
 import '../Adaptive/Adap-section.css'
 
 export default function Section() {
-
+ 
 const boxes = document.querySelectorAll('.zagol');
 const boxes2 = document.querySelectorAll('.zagol-of-team');
 const boxes3 = document.querySelectorAll('.zagol-of-comments');
